@@ -1,0 +1,168 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    z-index: 4;
+    background-color: transparent;
+   
+}
+.navv{
+    background-color: white;
+}
+
+.landingpage{
+    background: url(./images/HOMEPAGE_HERO_DESKTOP_1600x.progressive.jpg);
+    height: 100vh;
+    width: 100%;
+}
+.main-nav{
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    text-decoration: none;
+    padding: 18px 24px;
+    transition: all 0.3s ease-in;
+}
+nav ul li a, nav ul li i, nav a{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: .75rem;
+    letter-spacing: 2px;
+    letter-spacing: .125rem;
+    line-height: 20px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    transition: all 0.2s ease-in;
+}
+.cancel{
+    color: black;
+}
+nav ul li i{
+    font-size: 14px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+nav a{
+    font-size: 16px;
+    font-weight: 900;
+    font-size: 1.08rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    flex-basis: 33%;
+    
+}
+.nav:hover{
+    background-color: white;
+}
+
+nav:hover .logo {
+    color: black;
+}
+.loggo{
+    color: black;
+}
+nav .left li:hover::after {
+    content: '';
+    height: 1.5px;
+    width: 100%;
+    margin: auto;
+    display: block;
+    background-color: black;
+    transition: 0.5s ease-in;
+}
+.left{
+    flex-basis: 36%;
+    float: left;
+}
+.right{
+    flex-basis: 31%;
+    display: flex;
+    justify-content: end;
+}
+.minor-nav{
+    display: none;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.minor-navv{
+    display: flex;
+}
+
+.minor-nav .input{
+    border-radius: 6px;
+    outline: 0;
+    border: 0.5px rgba(0, 0, 0, 0.25) solid;
+    padding: 3px 10px;
+    margin-right: -25px;
+    height: 35px;
+    width: 70vw;
+    font-size: 13px;
+    padding-right: 40px;
+}
+
+.inbox-enter{
+    color: black;
+    font-size: 12px;
+}
+
+/* NAVIGATION ENDS */
+
+.headcontent{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 55%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
+.headcontent h2{
+    font-size: 64px;
+    margin: 0px 0px 36px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    /* line-height: 20px; */
+    color: aliceblue;
+    text-align: center;
+}
+.landing-btn{
+     text-decoration: none;
+    font-size: 13px;
+    color: white;
+    font-weight: 700;
+    font-size: .75rem;
+    letter-spacing: 2px;
+    letter-spacing: .125rem;
+    line-height: 20px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.landing-btn::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    margin: auto;
+    display: block;
+    background-color: white;
+}
